@@ -14,7 +14,8 @@ function deleteFromObjectByKey(){
   delete recipe.FirstIngredient
 return recipe
 }
-function destructivelyDeleteFromObjectByKey(recipes, FirstIngredient){
+function destructivelyDeleteFromObjectByKey(){
   delete recipes.FirstIngredient
   return recipes
 }
+
